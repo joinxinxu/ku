@@ -1,0 +1,6 @@
+framework module Pods_gitKu {
+  umbrella header "Pods-gitKu-umbrella.h"
+
+  export *
+  module * { export * }
+}
