@@ -7,14 +7,14 @@ Pod::Spec.new do |spec|
   spec.summary      = "WXTool is a Manager Tool."
 
   spec.description  = <<-DESC
-			WXTool is a Tool
+			WXTool is a Tool, use update new Tool for good status.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/WXTool"
+  spec.homepage     = "https://github.com/joinxinxu/ku.git"
 
 
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      =  'MIT'
 
 
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source_files  = 'WXTool/**/*.{h,m}'
+  spec.source_files  = 'gitKu/WXTool/**/*.{h,m}'
   spec.exclude_files = "Classes/Exclude"
 
 
