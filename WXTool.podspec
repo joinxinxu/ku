@@ -27,10 +27,6 @@ Pod::Spec.new do |spec|
   s.source_files = 'WXTool/**/*.{h,m}'
   s.requires_arc = true
 
- ———————————————— 
-版权声明：本文为CSDN博主「Deft_MKJing宓珂璟」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Deft_MKJing/article/details/85229447
-
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
