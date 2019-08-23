@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source_files  = "WXTool/**/*.{h,m}"
+  spec.source_files  = 'WXTool/**/*.{h,m}'
   spec.exclude_files = "Classes/Exclude"
 
 
