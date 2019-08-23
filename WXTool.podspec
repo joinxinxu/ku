@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "WXTool"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "WXTool is a Manager Tool."
 
   spec.description  = <<-DESC
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "WXTool/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
 
