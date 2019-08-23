@@ -19,13 +19,13 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "A short description of WXTool."
 
-  s.homepage     = 'https://github.com/joinxinxu/ku'
-  s.license      = 'MIT'
-  s.authors      = {'Mikejing' => '461940395@qq.com'}
-  s.platform     = :ios, '8.0'
-  s.source       = {:git => 'https://github.com/joinxinxu/ku.git', :tag => s.version}
-  s.source_files = 'WXTool/**/*.{h,m}'
-  s.requires_arc = true
+  spec.homepage     = 'https://github.com/joinxinxu/ku'
+  spec.license      = 'MIT'
+  spec.authors      = {'Mikejing' => '461940395@qq.com'}
+  spec.platform     = :ios, '8.0'
+  spec.source       = {:git => 'https://github.com/joinxinxu/ku.git', :tag => spec.version}
+  spec.source_files = 'WXTool/**/*.{h,m}'
+  spec.requires_arc = true
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
