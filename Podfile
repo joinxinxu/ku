@@ -6,7 +6,7 @@ target 'gitKu' do
   use_frameworks!
 
   # Pods for gitKu
-pod 'AFNetworking'
+  pod 'AFNetworking'
 
   target 'gitKuTests' do
     inherit! :search_paths

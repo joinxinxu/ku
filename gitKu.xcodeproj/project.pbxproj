@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		AF696DB2230EA5B100603F24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF696DB1230EA5B100603F24 /* main.m */; };
 		AF696DBC230EA5B100603F24 /* gitKuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF696DBB230EA5B100603F24 /* gitKuTests.m */; };
 		AF696DC7230EA5B100603F24 /* gitKuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF696DC6230EA5B100603F24 /* gitKuUITests.m */; };
+		AF696DD7230F952100603F24 /* Pi.m in Sources */ = {isa = PBXBuildFile; fileRef = AF696DD6230F952100603F24 /* Pi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		AF696DC2230EA5B100603F24 /* gitKuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitKuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF696DC6230EA5B100603F24 /* gitKuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitKuUITests.m; sourceTree = "<group>"; };
 		AF696DC8230EA5B100603F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF696DD5230F952100603F24 /* Pi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pi.h; sourceTree = "<group>"; };
+		AF696DD6230F952100603F24 /* Pi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pi.m; sourceTree = "<group>"; };
 		B25F3D2BA5EB431112209487 /* Pods_gitKuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gitKuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB86AFE08EA236F94A8CD713 /* Pods-gitKu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitKu.debug.xcconfig"; path = "Target Support Files/Pods-gitKu/Pods-gitKu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +121,7 @@
 		AF696DA1230EA5AF00603F24 /* gitKu */ = {
 			isa = PBXGroup;
 			children = (
+				AF696DD4230F951400603F24 /* WXTool */,
 				AF696DA2230EA5AF00603F24 /* AppDelegate.h */,
 				AF696DA3230EA5AF00603F24 /* AppDelegate.m */,
 				AF696DA5230EA5AF00603F24 /* ViewController.h */,
@@ -149,6 +153,15 @@
 			path = gitKuUITests;
 			sourceTree = "<group>";
 		};
+		AF696DD4230F951400603F24 /* WXTool */ = {
+			isa = PBXGroup;
+			children = (
+				AF696DD5230F952100603F24 /* Pi.h */,
+				AF696DD6230F952100603F24 /* Pi.m */,
+			);
+			path = WXTool;
+			sourceTree = "<group>";
+		};
 		CB117AF9262E2D87CF35908B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,7 +172,6 @@
 				3AE16D7E9B2FB13256014C36 /* Pods-gitKuUITests.debug.xcconfig */,
 				2AFD831F650181EEE7AECAAB /* Pods-gitKuUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -393,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF696DD7230F952100603F24 /* Pi.m in Sources */,
 				AF696DA7230EA5AF00603F24 /* ViewController.m in Sources */,
 				AF696DB2230EA5B100603F24 /* main.m in Sources */,
 				AF696DA4230EA5AF00603F24 /* AppDelegate.m in Sources */,
