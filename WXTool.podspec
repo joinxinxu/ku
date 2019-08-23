@@ -16,11 +16,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WXTool"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of WXTool."
-
+  spec.version      = "0.0.5"
+  spec.summary      = "WXTool is a Manager Tool."
   spec.homepage     = 'https://github.com/joinxinxu/ku'
-  spec.license      = 'MIT'
   spec.authors      = {'Mikejing' => '461940395@qq.com'}
   spec.platform     = :ios, '8.0'
   spec.source       = {:git => 'https://github.com/joinxinxu/ku.git', :tag => spec.version}
